@@ -7,7 +7,7 @@ import Foundation
 // reference: https://www.iban.com/currency-codes
 
 /// List of all available / supported currencies.
-enum Currency: String {
+public enum Currency: String {
   case afghani = "Afghani"
   case algerianDinar = "Algerian Dinar"
   case argentinePeso = "Argentine Peso"
@@ -174,7 +174,7 @@ enum Currency: String {
   case zloty = "Zloty"
 
   /// The unique code of the currency by `ISO 4217`.
-  var code: String {
+  public var code: String {
     switch self {
     case .afghani:
       return "AFN"
@@ -508,7 +508,7 @@ enum Currency: String {
   }
 
   /// The native symbol of the currency.
-  var symbol: String {
+  public var symbol: String {
     switch self {
     case .afghani:
       return "؋"
@@ -843,7 +843,7 @@ enum Currency: String {
 
   /// Returns a detailed representation of the currency.
   /// Example: US Dollar (USD)
-  var detailedRepresentation: String {
+  public var detailedRepresentation: String {
     return "\(self.rawValue) (\(self.code))"
   }
 }

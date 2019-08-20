@@ -9,7 +9,7 @@ Feel free to use it, share it, and update it.
 # 1. Requirements and Compatibility
 | Swift               | SKWorldCurrencies     |  iOS     |
 |-----------------|----------------|---------|
-|       5.0            | 2.x                |  10+     |
+|       5.0            | 1.x                |  10+     |
 
 # 2. Installation
 
